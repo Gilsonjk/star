@@ -1,0 +1,206 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+/*cabeçalho */
+
+.icones{
+   
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+    height: 10vh;
+  
+    background-color: rgb(149, 236, 35);
+    color:white ;
+    padding:5px 30px ;
+
+}
+.logo{
+    width: 60px;
+}
+
+
+
+.icones ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+   
+    
+   
+ }
+
+ .icones ul li{
+     margin-left: 40px ;
+     padding-top: 15px;
+    
+   
+ }
+
+
+ /*menu com links*/
+ .menu{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding-top: 10px;
+     margin: 0 30px 0 30px;
+ }
+
+ .menu ul{
+     display: flex;
+     
+     list-style: none;
+ }
+
+ .menu ul li{
+     margin-left: 20px;
+     font-size: 20px;
+     font-family: 'Times New Roman', Times, serif;
+     font-weight: 700;
+ }
+
+ .menu ul li a{
+    color: rgb(3, 25, 44);
+   padding: 7px 15px;
+    border-radius: 15px;
+    text-transform: uppercase;
+ }
+
+ .liks a:hover{
+    background-color: rgb(44, 177, 4);
+     transition: .2s;
+
+ }
+
+.search{
+    justify-content: center;
+    display: flex;
+    height: 30px;
+   
+    width: 260px;
+    align-items: center;background-color: rgb(149, 236, 35);
+    
+    border: 1px solid rgb(15, 15, 15);
+   
+    padding: 1px;
+   margin: 0 60px 0 60px;
+    border-radius: 50px;
+   
+}
+
+#icone{
+    border:none;
+    outline: none;
+    background: none;
+    padding: 2px;
+    color: cornsilk;
+    font-size:17px;
+    line-height: 40px;
+    padding-left: 5px;
+    padding-right: 5px;
+   
+
+}
+
+
+/*Slide*/
+
+.container-fluid{
+    padding: 0;
+}
+
+#carouselExampleCaptions .carousel-inner, #carouselExampleCaptions .carousel-item{
+    height:80vh ;
+}
+
+
+#carouselExampleCaptions .carousel-
+ caption{
+    top: 30%;
+ }
+
+
+#carouselExampleCaptions .carousel-
+ caption h2{
+     font-size: 50px;
+     margin-bottom: 50px;
+ }
+
+ 
+
+#carouselExampleCaptions .carousel-
+caption h3{
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 50px;
+}
+
+
+ 
+#carouselExampleCaptions .carousel-
+caption p{
+    font-size: 10px;
+   
+    margin-bottom: 100px;
+    color: white;
+}
+
+
+
+
+
+
+/*história*/
+
+
+.Retrato-nat{
+    float: left;
+    padding-top: 30px;
+}
+
+
+
+
+.foto{
+    padding: 20px; 
+    float: left;
+    width: 320px;
+    height: 200px
+
+}
+
+.foto p {
+    user-select: none;
+  
+  float: left;
+  margin-left: 20px;
+  
+}
+
+
+
+
+/*Cadastro*/
+
+footer{
+    margin: auto;
+  text-align: center;
+    
+   
+    width: 500px;
+    padding: 40px;
+}
+
+footer h4{
+    user-select: none;
+   
+    text-align: center;
+}
+
+
